@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Bretón Barber Shop | Barbería Premium en Santo Domingo</title>
+    <meta name="description" content="Barbería profesional con más de 10 años de experiencia. Cortes clásicos, diseño de barba y servicios premium. Reserva tu cita hoy.">
+    <meta name="keywords" content="barbería, barber shop, corte de cabello, barba, Santo Domingo, República Dominicana, Miguel Bretón">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Miguel Bretón Barber Shop">
+    <meta property="og:description" content="Estilo que marca la diferencia. Barbería premium en Santo Domingo.">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <span class="logo-text">Miguel Bretón</span>
+                <span class="logo-subtitle">Barber Shop</span>
+            </a>
+            
+            <!-- Desktop Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#promociones" class="nav-link">Promociones</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                <li><a href="#contacto" class="nav-cta">Reservar Cita</a></li>
+            </ul>
+            
+            <!-- Mobile Menu Button -->
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-content">
+                <button class="mobile-close" id="mobileClose" aria-label="Cerrar menú">
+                    <i data-lucide="x"></i>
+                </button>
+                <ul class="mobile-nav-links">
+                    <li><a href="#inicio" class="mobile-link">Inicio</a></li>
+                    <li><a href="#nosotros" class="mobile-link">Nosotros</a></li>
+                    <li><a href="#servicios" class="mobile-link">Servicios</a></li>
+                    <li><a href="#promociones" class="mobile-link">Promociones</a></li>
+                    <li><a href="#contacto" class="mobile-link">Contacto</a></li>
+                </ul>
+                <a href="#contacto" class="mobile-cta">Reservar Cita</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1920&q=80" alt="Miguel Bretón Barber Shop" class="hero-image">
+            <div class="hero-overlay"></div>
+            <div class="hero-overlay-side"></div>
+        </div>
+        
+        <!-- Decorative circles -->
+        <div class="hero-circle hero-circle-1"></div>
+        <div class="hero-circle hero-circle-2"></div>
+        
+        <div class="hero-content">
+            <p class="hero-pretitle fade-in">Bienvenido a</p>
+            <h1 class="hero-title fade-in delay-1">Miguel Bretón</h1>
+            <div class="hero-line fade-in delay-2"></div>
+            <p class="hero-subtitle fade-in delay-3">Barber Shop</p>
+            <p class="hero-tagline fade-in delay-4">"Estilo que marca la diferencia"</p>
+            <a href="#contacto" class="hero-btn fade-in delay-5">Reservar Cita</a>
+        </div>
+        
+        <a href="#nosotros" class="scroll-indicator fade-in delay-6">
+            <span>Descubrir</span>
+            <i data-lucide="chevron-down" class="bounce"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Image Side -->
+                <div class="about-image-container reveal-left">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&q=80" alt="Barbero profesional" class="about-image">
+                        <div class="about-image-overlay"></div>
+                    </div>
+                    <div class="about-experience">
+                        <span class="experience-number">10+</span>
+                        <span class="experience-text">Años de<br>Experiencia</span>
+                    </div>
+                    <div class="about-decoration"></div>
+                </div>
+                
+                <!-- Content Side -->
+                <div class="about-content reveal-right">
+                    <p class="section-pretitle">Sobre Nosotros</p>
+                    <h2 class="section-title">Una Tradición de Excelencia</h2>
+                    <div class="section-line"></div>
+                    
+                    <p class="about-text">
+                        En <strong>Miguel Bretón Barber Shop</strong> combinamos técnica, estilo y personalidad en cada corte. 
+                        Con más de 10 años de experiencia, ofrecemos servicios modernos y clásicos pensados 
+                        para el caballero que desea siempre lucir impecable.
+                    </p>
+                    <p class="about-text">
+                        Nuestra misión es brindar una atención profesional con resultados que marcan la diferencia. 
+                        Cada cliente es único, y cada corte refleja su esencia.
+                    </p>
+                    
+                    <ul class="about-features">
+                        <li class="feature-item">
+                            <div class="feature-icon">
+                                <i data-lucide="user-check"></i>
+                            </div>
+                            <div>
+                                <h4>Atención Personalizada</h4>
+                                <p>Cada cliente recibe un servicio único adaptado a su estilo</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon">
+                                <i data-lucide="sparkles"></i>
+                            </div>
+                            <div>
+                                <h4>Productos Premium</h4>
+                                <p>Utilizamos solo productos de la más alta calidad</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <div>
+                                <h4>Expertos en Estilo</h4>
+                                <p>Especialistas en cortes modernos y clásicos</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="section-line-top"></div>
+        <div class="section-line-bottom"></div>
+        
+        <div class="container">
+            <div class="section-header reveal-up">
+                <p class="section-pretitle">Nuestros Servicios</p>
+                <h2 class="section-title">Servicios & Precios</h2>
+                <div class="section-line center"></div>
+                <p class="section-description">
+                    Ofrecemos una amplia gama de servicios de barbería profesional.
+                    Todos los precios en Pesos Dominicanos (DOP).
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal-up delay-1">
+                    <div class="service-hover-bg"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="scissors"></i>
+                        </div>
+                        <h3 class="service-name">Corte Clásico</h3>
+                        <p class="service-description">Corte tradicional con acabado profesional</p>
+                        <span class="service-price">RD$250</span>
+                    </div>
+                    <div class="service-corner"></div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card reveal-up delay-2">
+                    <div class="service-hover-bg"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="scissors"></i>
+                        </div>
+                        <h3 class="service-name">Corte + Barba</h3>
+                        <p class="service-description">Combo completo para el caballero moderno</p>
+                        <span class="service-price">RD$400</span>
+                    </div>
+                    <div class="service-corner"></div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card reveal-up delay-3">
+                    <div class="service-hover-bg"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="sparkles"></i>
+                        </div>
+                        <h3 class="service-name">Diseño de Barba</h3>
+                        <p class="service-description">Perfilado y diseño personalizado de barba</p>
+                        <span class="service-price">RD$300</span>
+                    </div>
+                    <div class="service-corner"></div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card reveal-up delay-4">
+                    <div class="service-hover-bg"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="palette"></i>
+                        </div>
+                        <h3 class="service-name">Coloración</h3>
+                        <p class="service-description">Tinte para cabello o barba con productos premium</p>
+                        <span class="service-price">RD$800</span>
+                    </div>
+                    <div class="service-corner"></div>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card reveal-up delay-5">
+                    <div class="service-hover-bg"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="baby"></i>
+                        </div>
+                        <h3 class="service-name">Corte Infantil</h3>
+                        <p class="service-description">Servicio especial para los más pequeños</p>
+                        <span class="service-price">RD$200</span>
+                    </div>
+                    <div class="service-corner"></div>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card reveal-up delay-6">
+                    <div class="service-hover-bg"></div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i data-lucide="wind"></i>
+                        </div>
+                        <h3 class="service-name">Afeitado Premium</h3>
+                        <p class="service-description">Afeitado clásico con vapor y toalla caliente</p>
+                        <span class="service-price">RD$500</span>
+                    </div>
+                    <div class="service-corner"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotions Section -->
+    <section id="promociones" class="promotions">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <p class="section-pretitle">Ofertas Especiales</p>
+                <h2 class="section-title">Promociones</h2>
+                <div class="section-line center"></div>
+                <p class="section-description">
+                    Aprovecha nuestras ofertas exclusivas y ahorra en tus servicios favoritos.
+                </p>
+            </div>
+            
+            <div class="promotions-grid">
+                <!-- Promo 1 -->
+                <div class="promo-card promo-featured reveal-up delay-1">
+                    <div class="promo-badge">Más Popular</div>
+                    <div class="promo-icon">
+                        <i data-lucide="crown"></i>
+                    </div>
+                    <h3 class="promo-title">Combo Premium</h3>
+                    <p class="promo-description">Corte + Barba + Cejas</p>
+                    <div class="promo-pricing">
+                        <span class="promo-old-price">RD$850</span>
+                        <span class="promo-new-price">RD$650</span>
+                    </div>
+                    <span class="promo-savings">Ahorra RD$200</span>
+                    <a href="#contacto" class="promo-btn">Aprovechar Oferta</a>
+                </div>
+                
+                <!-- Promo 2 -->
+                <div class="promo-card reveal-up delay-2">
+                    <div class="promo-icon">
+                        <i data-lucide="baby"></i>
+                    </div>
+                    <h3 class="promo-title">Martes Infantil</h3>
+                    <p class="promo-description">Corte para niños todos los martes</p>
+                    <div class="promo-pricing">
+                        <span class="promo-old-price">RD$200</span>
+                        <span class="promo-new-price">RD$150</span>
+                    </div>
+                    <span class="promo-savings">Ahorra RD$50</span>
+                    <a href="#contacto" class="promo-btn promo-btn-outline">Aprovechar Oferta</a>
+                </div>
+                
+                <!-- Promo 3 -->
+                <div class="promo-card reveal-up delay-3">
+                    <div class="promo-icon">
+                        <i data-lucide="wind"></i>
+                    </div>
+                    <h3 class="promo-title">Miércoles de Caballeros</h3>
+                    <p class="promo-description">Afeitado Premium con descuento especial</p>
+                    <div class="promo-pricing">
+                        <span class="promo-old-price">RD$500</span>
+                        <span class="promo-new-price">RD$350</span>
+                    </div>
+                    <span class="promo-savings">Ahorra RD$150</span>
+                    <a href="#contacto" class="promo-btn promo-btn-outline">Aprovechar Oferta</a>
+                </div>
+                
+                <!-- Promo 4 -->
+                <div class="promo-card promo-loyalty reveal-up delay-4">
+                    <div class="promo-icon">
+                        <i data-lucide="gift"></i>
+                    </div>
+                    <h3 class="promo-title">Tarjeta de Fidelidad</h3>
+                    <p class="promo-description">Acumula cortes y recibe beneficios</p>
+                    <div class="loyalty-progress">
+                        <div class="loyalty-dots">
+                            <span class="loyalty-dot filled"></span>
+                            <span class="loyalty-dot filled"></span>
+                            <span class="loyalty-dot filled"></span>
+                            <span class="loyalty-dot filled"></span>
+                            <span class="loyalty-dot filled"></span>
+                            <span class="loyalty-dot free">
+                                <i data-lucide="gift"></i>
+                            </span>
+                        </div>
+                        <p class="loyalty-text">5 cortes = <strong>6to GRATIS</strong></p>
+                    </div>
+                    <a href="#contacto" class="promo-btn promo-btn-outline">Más Información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="section-line-top"></div>
+        
+        <div class="container">
+            <div class="section-header reveal-up">
+                <p class="section-pretitle">Contáctanos</p>
+                <h2 class="section-title">Reserva tu Cita</h2>
+                <div class="section-line center"></div>
+                <p class="section-description">
+                    Estamos listos para atenderte. Reserva tu cita o visítanos directamente.
+                </p>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container reveal-left">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono / WhatsApp</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="849-000-0000" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje (Opcional)</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿En qué podemos ayudarte?"></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">
+                            <i data-lucide="calendar"></i>
+                            Solicitar Cita
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info reveal-right">
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/18495058045" target="_blank" class="contact-card whatsapp-card">
+                        <div class="contact-card-icon">
+                            <i data-lucide="message-circle"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4>WhatsApp Directo</h4>
+                            <p>849-505-8045</p>
+                            <span class="contact-card-action">Escríbenos ahora →</span>
+                        </div>
+                    </a>
+                    
+                    <!-- Location -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4>Ubicación</h4>
+                            <p>Calle Principal #45<br>Santo Domingo, República Dominicana</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Hours -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i data-lucide="clock"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4>Horario</h4>
+                            <div class="hours-list">
+                                <div class="hours-item">
+                                    <span>Lunes - Sábado</span>
+                                    <span>9:00 AM - 9:00 PM</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span>Domingo</span>
+                                    <span>10:00 AM - 6:00 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Map -->
+                    <div class="contact-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.93187245!2d-69.98965654179688!3d18.47186390000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f1107ea5ab%3A0xd6c587b82715c164!2sSanto%20Domingo!5e0!3m2!1sen!2sdo!4v1702000000000!5m2!1sen!2sdo" 
+                            width="100%" 
+                            height="200" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <a href="#inicio" class="footer-logo">
+                        <span class="footer-logo-text">Miguel Bretón</span>
+                        <span class="footer-logo-subtitle">Barber Shop</span>
+                    </a>
+                    <p class="footer-tagline">"Estilo que marca la diferencia"</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i data-lucide="facebook"></i>
+                        </a>
+                        <a href="https://wa.me/18495058045" class="social-link" aria-label="WhatsApp">
+                            <i data-lucide="message-circle"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#promociones">Promociones</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>
+                            <i data-lucide="phone"></i>
+                            <span>849-505-8045</span>
+                        </li>
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span>Calle Principal #45, Santo Domingo</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Hours -->
+                <div class="footer-hours">
+                    <h4>Horario</h4>
+                    <ul>
+                        <li>
+                            <span>Lun - Sáb</span>
+                            <span>9:00 AM - 9:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Domingo</span>
+                            <span>10:00 AM - 6:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Miguel Bretón Barber Shop. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="aviso-legal.html">Aviso Legal</a>
+                    <a href="politica-privacidad.html">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <i data-lucide="check-circle"></i>
+        <span id="toastMessage">Mensaje enviado correctamente</span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso Legal | Miguel Bretón Barber Shop</title>
+    <meta name="description" content="Aviso legal de Miguel Bretón Barber Shop. Información sobre términos de uso y condiciones.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        .legal-page {
+            padding: 8rem 0 4rem;
+            min-height: 100vh;
+        }
+        
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .legal-content h1 {
+            font-family: var(--font-serif);
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .legal-content p {
+            color: var(--color-muted);
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+        
+        .legal-content strong {
+            color: var(--color-primary);
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-primary);
+            margin-bottom: 2rem;
+            transition: opacity var(--transition-fast);
+        }
+        
+        .back-link:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Simple Navbar -->
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Miguel Bretón</span>
+                <span class="logo-subtitle">Barber Shop</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Legal Content -->
+    <section class="legal-page">
+        <div class="container">
+            <div class="legal-content">
+                <a href="index.html" class="back-link">
+                    <i data-lucide="arrow-left"></i>
+                    Volver al inicio
+                </a>
+                
+                <h1>Aviso Legal</h1>
+                
+                <p>
+                    Este sitio web pertenece a <strong>Miguel Bretón Barber Shop</strong>.
+                </p>
+                
+                <p>
+                    La información, servicios y precios mostrados en este sitio web están sujetos a cambios 
+                    sin previo aviso. Nos reservamos el derecho de modificar, actualizar o eliminar cualquier 
+                    contenido en cualquier momento sin notificación previa.
+                </p>
+                
+                <p>
+                    Todo el contenido del sitio, incluyendo pero no limitándose a imágenes, textos, logotipos, 
+                    marcas, diseños gráficos, código fuente y cualquier otro elemento, está protegido por las 
+                    leyes de propiedad intelectual de la República Dominicana y tratados internacionales aplicables.
+                </p>
+                
+                <p>
+                    Queda estrictamente prohibida la reproducción, distribución, comunicación pública, 
+                    transformación o cualquier otra forma de uso del contenido de este sitio web sin la 
+                    autorización expresa y por escrito de <strong>Miguel Bretón Barber Shop</strong>.
+                </p>
+                
+                <p>
+                    El uso indebido del contenido, marcas o cualquier material protegido de este sitio web 
+                    podrá ser objeto de las acciones legales correspondientes según la legislación vigente.
+                </p>
+                
+                <p>
+                    Para cualquier consulta relacionada con este aviso legal, puede contactarnos a través 
+                    de nuestros canales oficiales de comunicación.
+                </p>
+                
+                <p style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-border);">
+                    <strong>Última actualización:</strong> 10 de diciembre de 2025
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="margin-top: 0; padding-top: 0; border-top: none;">
+                <p>&copy; 2025 Miguel Bretón Barber Shop. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="aviso-legal.html">Aviso Legal</a>
+                    <a href="politica-privacidad.html">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
