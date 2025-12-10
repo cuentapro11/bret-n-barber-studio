@@ -1,13 +1,40 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { AboutSection } from "@/components/sections/AboutSection";
+import { ServicesSection } from "@/components/sections/ServicesSection";
+import { PromotionsSection } from "@/components/sections/PromotionsSection";
+import { ContactSection } from "@/components/sections/ContactSection";
+import { Helmet } from "react-helmet-async";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>Miguel Bretón Barber Shop | Barbería Premium en Santo Domingo</title>
+        <meta
+          name="description"
+          content="Miguel Bretón Barber Shop - Barbería premium en Santo Domingo, República Dominicana. Cortes clásicos, diseño de barba, y afeitado premium. Más de 10 años de experiencia."
+        />
+        <meta
+          name="keywords"
+          content="barbería, Santo Domingo, corte de cabello, barba, afeitado, República Dominicana"
+        />
+        <link rel="canonical" href="https://miguelbretonbarbershop.com" />
+      </Helmet>
+      
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <main>
+          <HeroSection />
+          <AboutSection />
+          <ServicesSection />
+          <PromotionsSection />
+          <ContactSection />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
